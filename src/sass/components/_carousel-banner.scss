@@ -1,0 +1,18 @@
+/* Carousel */
+.img-slider {
+  height: 40vh;
+  max-height: 70vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 576px) {
+  .img-slider {
+    height: 95vh;
+    max-height: 95vh;
+  }
+}
+
+.carousel-indicators {
+  z-index: 5;
+}
